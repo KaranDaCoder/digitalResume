@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.06rem;
+}
+
+body {
+  background: black;
+  color: whitesmoke;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#resume-container {
+  max-width: 1100px;
+  margin: 0.25em auto;
+  padding: 1.5rem;
+  line-height: 1.5;
+  background-color: rgb(59, 59, 59);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.introduction {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.brief-intro {
+  margin-left: 3rem;
+}
+
+.brief-intro h2 {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.brief-intro a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 0.9rem 0;
+  text-decoration: none;
+}
+h4 {
+  margin: 0.75rem 0;
+  font-weight: 300;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.links {
+  margin-top: 1.5rem;
+  align-items: center;
+  color: rgb(219, 214, 214);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(168, 163, 163);
+  text-align: center;
+  padding-bottom: 0.15rem;
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.links a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.work-experience,
+.tech-stack,
+.education {
+  margin-top: 1.2rem;
+}
+
+.work-experience h3 {
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.experience-card,
+.tech-stack-card,
+.education-card {
+  margin-top: 0.5rem;
+  /* background-color: rgb(75, 75, 75); */
+  padding: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.roles-resp {
+  padding: 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.roles-resp p {
+  margin-top: 0.15rem;
+}
+
+.tech-stack-card {
+  display: flex;
+  justify-content: start;
+}
+.tech-stack-card ul li {
+  border: 2px solid rgb(128, 122, 122);
+  margin: 0.3rem;
+  padding: 0.25rem 0.8rem;
+  border-radius: 4px;
+}
